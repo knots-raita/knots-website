@@ -9,3 +9,17 @@ a.card:hover h3::after{transform:translateX(.2em);opacity:1}
 @media (prefers-reduced-motion:reduce){main a::after,.site-footer a::after,a.card h3::after{transition:none}}
 
 .map{position:relative;width:100%;aspect-ratio:16/10;max-height:28rem;border:1px solid var(--line);background:var(--surface)}.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* ヒーローの写真：文字が読めるよう、暗い膜を重ねる */
+.hero.photo{
+  position:relative;color:#fff;border-bottom:0;padding:5rem 0 4rem;
+  background:linear-gradient(90deg,rgba(10,14,20,.88) 0%,rgba(10,14,20,.72) 50%,rgba(10,14,20,.35) 100%),url("images/hero.jpg") center/cover no-repeat;
+  background-color:#10151c
+}
+.hero.photo h1,.hero.photo .fact{color:#fff}
+.hero.photo .axcr{color:#d6dde6}
+.hero.photo .tel{color:#fff;text-decoration:underline;text-underline-offset:.2em}
+.hero.photo .btn{background:#fff;color:#12304f;border-color:#fff}
+.hero.photo .btn:hover{filter:none;background:#e6eef8}
+.hero.photo .todo{color:#ffd28a}
+@media (width<40rem){.hero.photo{padding:3.5rem 0 3rem;background:linear-gradient(rgba(10,14,20,.78),rgba(10,14,20,.78)),url("images/hero.jpg") center/cover no-repeat}}
