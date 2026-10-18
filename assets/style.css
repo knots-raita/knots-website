@@ -23,3 +23,5 @@ a.card:hover h3::after{transform:translateX(.2em);opacity:1}
 .hero.photo .btn:hover{filter:none;background:#e6eef8}
 .hero.photo .todo{color:#ffd28a}
 @media (width<40rem){.hero.photo{padding:3.5rem 0 3rem;background:linear-gradient(rgba(10,14,20,.78),rgba(10,14,20,.78)),url("images/hero.jpg") center/cover no-repeat}}
+
+.site-footer .copy{color:var(--muted);margin:.4rem 0 0;font-size:.8rem}
