@@ -26,4 +26,4 @@ a.card:hover h3::after{transform:translateX(.2em);opacity:1}
 
 .site-footer .copy{color:var(--muted);margin:.4rem 0 0;font-size:.8rem}
 .hero.photo .btn.ghost{background:transparent;color:#fff;border-color:#fff}.hero.photo .btn.ghost:hover{background:rgba(255,255,255,.18)}
-.hero.photo .axcr a{color:#fff;text-decoration-color:rgba(255,255,255,.7)}
+.hero.photo .axcr a{color:#fff;text-decoration-color:rgba(255,255,255,.7)}.lang{order:1;gap:.7rem;margin-left:auto;font-size:.85rem;display:flex}.lang a{color:var(--muted);border-bottom:2px solid #0000;padding:.15rem .1rem;text-decoration:none}.lang a:hover,.lang a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}.site-nav{order:3}.header-contact{order:4}@media (width>=52rem){.lang{order:5;margin-left:0}}html[lang=en]{--sans:-apple-system, "Helvetica Neue", sans-serif}
