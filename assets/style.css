@@ -26,3 +26,4 @@ a.card:hover h3::after{transform:translateX(.2em);opacity:1}
 
 .site-footer .copy{color:var(--muted);margin:.4rem 0 0;font-size:.8rem}
 .hero.photo .btn.ghost{background:transparent;color:#fff;border-color:#fff}.hero.photo .btn.ghost:hover{background:rgba(255,255,255,.18)}
+.hero.photo .axcr a{color:#fff;text-decoration-color:rgba(255,255,255,.7)}
